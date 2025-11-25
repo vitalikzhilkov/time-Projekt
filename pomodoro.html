@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Таймер Pomodoro</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Таймер Pomodoro</h1>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="tasks.html">Планировщик задач</a>
+        <a href="productivity.html">Калькулятор продуктивности</a>
+        <a href="pomodoro.html">Таймер Pomodoro</a>
+        <a href="recommendations.html">Рекомендации</a>
+        <a href="contact.html">Контакты</a>
+    </nav>
+</header>
+<main>
+<section>
+    <label>Время работы (мин): <input type="number" id="workTime" value="25"></label><br>
+    <label>Перерыв (мин): <input type="number" id="breakTime" value="5"></label><br>
+    <p id="timer">00:00</p>
+    <button id="start">Старт</button>
+    <button id="pause">Пауза</button>
+    <button id="reset">Сброс</button>
+</section>
+</main>
+<script src="js/pomodoro.js"></script>
+</body>
+</html>

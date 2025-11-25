@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планировщик задач</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Планировщик задач</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="tasks.html">Планировщик задач</a>
+            <a href="productivity.html">Калькулятор продуктивности</a>
+            <a href="pomodoro.html">Таймер Pomodoro</a>
+            <a href="recommendations.html">Рекомендации</a>
+            <a href="contact.html">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="taskTitle" placeholder="Название задачи">
+            <select id="taskCategory">
+                <option>Работа</option>
+                <option>Учёба</option>
+                <option>Отдых</option>
+                <option>Спорт</option>
+            </select>
+            <select id="taskPriority">
+                <option>Низкий</option>
+                <option>Средний</option>
+                <option>Высокий</option>
+            </select>
+            <button id="addTask">Добавить</button>
+        </section>
+        <ul id="taskList"></ul>
+    </main>
+    <script src="js/tasks.js"></script>
+</body>
+</html>
