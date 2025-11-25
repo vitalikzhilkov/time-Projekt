@@ -151,27 +151,27 @@ Simply open **index.html** in any modern browser:
 
 Главная страница:
 
-![Главная страница](images/index.png)
+![Главная страница](img/index.png)
 
 Список задач:
 
-![Задачи](images/tasks.png)
+![Задачи](img/tasks.png)
 
 Таймер Помодоро:
 
-![Помодоро](images/pomodoro.png)
+![Помодоро](img/pomodoro.png)
 
 Методы продуктивности:
 
-![Продуктивность](images/productivity.png)
+![Продуктивность](img/productivity.png)
 
 Советы и рекомендации:
 
-![Советы](images/tips.png)
+![Советы](img/tips.png)
 
 Контактная форма:
 
-![Контакты](images/contact.png)
+![Контакты](img/contact.png)
 
 ---
 
